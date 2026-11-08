@@ -27,7 +27,8 @@ h3 {
 }
 
 
-/* Grid visualisation CSS for testing */
+
+/* Grid visualisation CSS for testing - disabled
 
 .container,
 .row {
@@ -38,3 +39,6 @@ h3 {
     border: 2px solid white;
     background-color: lightgray;
 }
+
+*/
+
