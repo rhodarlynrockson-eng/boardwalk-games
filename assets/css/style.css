@@ -69,6 +69,47 @@ h2 {
 #fav-games .card {
     border: none;
 }
+
+/* Footer / contact section */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 2rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+/* Social media icons */
+
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease;
+}
+
+#contact .social-links a:hover i,
+#contact .social-links a:focus-visible i {
+    color: white;
+}
+/* Opening times table */
+
+#contact .table-dark > :not(caption) > * > * {
+    background-color: transparent;
+}
+
 /* Grid visualisation CSS for testing - disabled
 
 .container,
