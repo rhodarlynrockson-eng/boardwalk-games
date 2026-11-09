@@ -110,6 +110,37 @@ h2 {
     background-color: transparent;
 }
 
+/* Custom buttons */
+
+/* Filled button - used in the navigation */
+.custom-button-filled {
+    background-color: var(--highlight-color);
+    border: 1px solid var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover,
+.custom-button-filled:focus-visible {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
+}
+
+/* Outline button - used on light backgrounds */
+.custom-button-outline {
+    background-color: transparent;
+    border: 1px solid var(--highlight-color);
+    color: var(--highlight-color);
+}
+
+.custom-button-outline:hover,
+.custom-button-outline:focus-visible {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    color: white;
+}
+
+
 /* Grid visualisation CSS for testing - disabled
 
 .container,
