@@ -108,6 +108,16 @@ h2 {
     transition: color 0.3s ease;
 }
 
+/* Make social media links easier to tap */
+#contact .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+
 #contact .social-links a:hover i,
 #contact .social-links a:focus-visible i {
     color: white;
