@@ -13,6 +13,12 @@
     --highlight-color-light: #7a9fc2; /* light blue */
 }
 
+/* Global body styling */
+/* Padding makes room for the fixed navbar */
+body {
+    padding-top: 57.15px;
+}
+
 /* Heading styling */
 h1,
 h2,
@@ -34,11 +40,13 @@ h2 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
 /* Reusable section spacing */
 .section {
-    margin-top: 2rem;
+    padding-top: 4rem;
     margin-bottom: 2rem;
 }
+
 /* Navbar */
 
 #navbar {
