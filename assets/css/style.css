@@ -1,4 +1,6 @@
 
+
+
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Macondo&display=swap');
 
@@ -105,14 +107,21 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
 
 /* Make social media links easier to tap */
 #contact .social-links a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     min-width: 44px;
     min-height: 44px;
 }
@@ -158,21 +167,6 @@ h2 {
     color: white;
 }
 
-
-/* Grid visualisation CSS for testing - disabled
-
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-
-*/
-
 /* Media queries */
 
 /* Medium screens (tablets, 768px and up) */
@@ -202,4 +196,3 @@ h2 {
         min-height: 195px;
     }
 }
-
